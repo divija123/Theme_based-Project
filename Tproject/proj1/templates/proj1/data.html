@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <title>Analysis Page</title>
+    <body>
+    
+     <form method="POST" action="{% url 'proj1:results' %}">
+     <p>1.Which Option do you think best suits u?</p>
+     <input type="radio" name="answer" >Working on Building an Automobile like cars,trucks(for MECH)<br>
+     <input type="radio" name="answer" > Dealing  with  Digital transmission  of data, circuits ,chips(for  ECE, EEE)<br>
+     <input type="radio" name="answer" >Building  websites and technologies related to  comp.programming?(  CSE & IT  )<br>
+     <input type="radio" name="answer" >None of the above<br>
+     <p>2. Which Subject would you take?</p>
+     <input type="radio" name="answer1" >Physics and Mathematics(for MECH)<br>
+     <input type="radio" name="answer1" >Basic Electronics(for  ECE, EEE)<br>
+     <input type="radio" name="answer1" >Basic Knowledge of Computers,HTML(  CSE & IT  )<br>
+     <input type="radio" name="answer1" >None of the above<br>
+     <p>3.Not Clear Which side to choose,why not choose both sides?which option would to choose?</p>
+     <input type="radio" name="answer2" >Software and Hardware(IT)<br>
+     <input type="radio" name="answer2" >Physics and mathematics(MECH)<br>
+     <input type="radio" name="answer2" >Electronics(ECE,EEE)<br>
+     <input type="radio" name="answer2" >None of the above<br>
+
+
+     <center> 
+            <a class="btn btn-primary" href="results">Submit</a>
+
+     </center>
+     
+     </form>   
+    </body>
+    </html>
+
+    
+
+
+</html>
